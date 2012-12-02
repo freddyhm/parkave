@@ -1,0 +1,869 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D500115C14C1C78B0028E500 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D500115B14C1C7890028E500 /* TabBarViewController.m */; };
+		D500115F14C2309E0028E500 /* ParameterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D500115E14C2309A0028E500 /* ParameterViewController.m */; };
+		D525EE9114C5EC8C00F079FE /* CommercialRECalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D525EE8E14C5EC8C00F079FE /* CommercialRECalculator.xcdatamodeld */; };
+		D525EE9414C6ACF100F079FE /* PropertyAgentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D525EE9314C6ACEE00F079FE /* PropertyAgentViewController.m */; };
+		D525EE9714C6AE3F00F079FE /* PropertyContractor.m in Sources */ = {isa = PBXBuildFile; fileRef = D525EE9614C6AE3C00F079FE /* PropertyContractor.m */; };
+		D525EE9A14C6AE9000F079FE /* PropertyBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = D525EE9914C6AE8E00F079FE /* PropertyBuilder.m */; };
+		D53CB61814632725006F68C8 /* Mortgage.m in Sources */ = {isa = PBXBuildFile; fileRef = D53CB61714632725006F68C8 /* Mortgage.m */; };
+		D53CB61E14632725006F68C8 /* Expense.m in Sources */ = {isa = PBXBuildFile; fileRef = D53CB61D14632725006F68C8 /* Expense.m */; };
+		D53CB62714632A85006F68C8 /* Revenue.m in Sources */ = {isa = PBXBuildFile; fileRef = D53CB62614632A84006F68C8 /* Revenue.m */; };
+		D54A088514DB945500FF6186 /* MtgCalcOutputController.m in Sources */ = {isa = PBXBuildFile; fileRef = D54A088414DB945500FF6186 /* MtgCalcOutputController.m */; };
+		D54DA9BA1488E86E00A73C8A /* arrowdown.png in Resources */ = {isa = PBXBuildFile; fileRef = D54DA9B71488E86E00A73C8A /* arrowdown.png */; };
+		D54DA9BB1488E86E00A73C8A /* arrowup.png in Resources */ = {isa = PBXBuildFile; fileRef = D54DA9B81488E86E00A73C8A /* arrowup.png */; };
+		D54DA9BF1488EA2700A73C8A /* applybutton.png in Resources */ = {isa = PBXBuildFile; fileRef = D54DA9BD1488EA2700A73C8A /* applybutton.png */; };
+		D54DA9C01488EA2700A73C8A /* calculate button.png in Resources */ = {isa = PBXBuildFile; fileRef = D54DA9BE1488EA2700A73C8A /* calculate button.png */; };
+		D5558CE014325AC800957B37 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5558CDE14325AC700957B37 /* RootViewController.m */; };
+		D5558CE114325AC800957B37 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5558CDF14325AC800957B37 /* MainWindow.xib */; };
+		D5558CEC14325D1900957B37 /* tall-buildings.png in Resources */ = {isa = PBXBuildFile; fileRef = D5558CEB14325D1800957B37 /* tall-buildings.png */; };
+		D5558CEE14325DEF00957B37 /* 06_calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = D5558CED14325DEF00957B37 /* 06_calculator.png */; };
+		D555F26714CFA86E00E41B0C /* arrow2.png in Resources */ = {isa = PBXBuildFile; fileRef = D555F26614CFA86E00E41B0C /* arrow2.png */; };
+		D5591B8B143148210091BA2D /* MortgageData.m in Sources */ = {isa = PBXBuildFile; fileRef = D5591B8A143148210091BA2D /* MortgageData.m */; };
+		D568F78914E1401600668749 /* BUTTON_04.png in Resources */ = {isa = PBXBuildFile; fileRef = D568F78814E1401600668749 /* BUTTON_04.png */; };
+		D56A49911488905E005F1D51 /* BUTTON_02.png in Resources */ = {isa = PBXBuildFile; fileRef = D56A49871488905E005F1D51 /* BUTTON_02.png */; };
+		D56A49921488905E005F1D51 /* BUTTON_03.png in Resources */ = {isa = PBXBuildFile; fileRef = D56A49881488905E005F1D51 /* BUTTON_03.png */; };
+		D56A49941488905E005F1D51 /* mainbg.png in Resources */ = {isa = PBXBuildFile; fileRef = D56A498A1488905E005F1D51 /* mainbg.png */; };
+		D56A49951488905E005F1D51 /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = D56A498C1488905E005F1D51 /* backbutton.png */; };
+		D56A49961488905E005F1D51 /* editbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = D56A498D1488905E005F1D51 /* editbutton.png */; };
+		D56A49971488905E005F1D51 /* propBar.png in Resources */ = {isa = PBXBuildFile; fileRef = D56A498E1488905E005F1D51 /* propBar.png */; };
+		D56A49981488905E005F1D51 /* calcBar.png in Resources */ = {isa = PBXBuildFile; fileRef = D56A498F1488905E005F1D51 /* calcBar.png */; };
+		D56A49991488905E005F1D51 /* setBar.png in Resources */ = {isa = PBXBuildFile; fileRef = D56A49901488905E005F1D51 /* setBar.png */; };
+		D56A49C51488C8EB005F1D51 /* PLAINBG.png in Resources */ = {isa = PBXBuildFile; fileRef = D56A49C41488C8EA005F1D51 /* PLAINBG.png */; };
+		D56D428114DE3B7A00862984 /* arrow21.png in Resources */ = {isa = PBXBuildFile; fileRef = D56D428014DE3B7A00862984 /* arrow21.png */; };
+		D56D428514DE3E2500862984 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D56D428414DE3E2500862984 /* arrow.png */; };
+		D57D0B291524D6F50056DD9C /* in_app_icon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = D57D0B281524D6F50056DD9C /* in_app_icon_57x57.png */; };
+		D57D0B2B1524D6FC0056DD9C /* in_app_icon_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = D57D0B2A1524D6FC0056DD9C /* in_app_icon_114x114.png */; };
+		D57D0B2F1524D8D10056DD9C /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = D57D0B2E1524D8D10056DD9C /* Entitlements.plist */; };
+		D5866994143D57F800B04E97 /* ListPropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5866992143D57F800B04E97 /* ListPropertyViewController.m */; };
+		D5866995143D57F800B04E97 /* ListPropertyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5866993143D57F800B04E97 /* ListPropertyViewController.xib */; };
+		D59A385214D96E6400398AEC /* CalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59A385014D96BAF00398AEC /* CalcViewController.m */; };
+		D5A30ACE1431319400F07D07 /* MtgCalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A30ACC1431319400F07D07 /* MtgCalcController.m */; };
+		D5A7A0E314BB14790077D40E /* expTB.png in Resources */ = {isa = PBXBuildFile; fileRef = D5A7A0DE14BB14790077D40E /* expTB.png */; };
+		D5A7A0E414BB14790077D40E /* mtgTB.png in Resources */ = {isa = PBXBuildFile; fileRef = D5A7A0DF14BB14790077D40E /* mtgTB.png */; };
+		D5A7A0E514BB14790077D40E /* propTB.png in Resources */ = {isa = PBXBuildFile; fileRef = D5A7A0E014BB14790077D40E /* propTB.png */; };
+		D5A7A0E614BB14790077D40E /* repTB.png in Resources */ = {isa = PBXBuildFile; fileRef = D5A7A0E114BB14790077D40E /* repTB.png */; };
+		D5A7A0E714BB14790077D40E /* revTB.png in Resources */ = {isa = PBXBuildFile; fileRef = D5A7A0E214BB14790077D40E /* revTB.png */; };
+		D5B05039145CA853000163F8 /* RevenueData.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B05038145CA84E000163F8 /* RevenueData.m */; };
+		D5B0503C145CA87B000163F8 /* ExpenseData.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B0503B145CA878000163F8 /* ExpenseData.m */; };
+		D5B0503F145CA8A7000163F8 /* ReportData.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B0503E145CA8A4000163F8 /* ReportData.m */; };
+		D5B1B6061466216A00761F91 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5B1B6041466216A00761F91 /* SettingsViewController.xib */; };
+		D5B1B6101466242F00761F91 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B1B60F1466242E00761F91 /* settings.png */; };
+		D5B1B61D1466311900761F91 /* SettingsParameterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B1B61C1466311900761F91 /* SettingsParameterViewController.m */; };
+		D5B1B64014664C8900761F91 /* SettingsParameterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5B1B63F14664C8800761F91 /* SettingsParameterViewController.xib */; };
+		D5B1B649146718FD00761F91 /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B1B647146718FD00761F91 /* banana.png */; };
+		D5B1B64A146718FD00761F91 /* Banana-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B1B648146718FD00761F91 /* Banana-1.png */; };
+		D5B8048E1423F7F000B7F5B6 /* AppDataContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B8048D1423F7F000B7F5B6 /* AppDataContainer.m */; };
+		D5B80494142692D300B7F5B6 /* PropertyData.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B80493142692D300B7F5B6 /* PropertyData.m */; };
+		D5B804A0142698E900B7F5B6 /* AppDataObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B8049F142698E900B7F5B6 /* AppDataObjects.m */; };
+		D5B804D61426A18100B7F5B6 /* CalculatorModule.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B804D41426A18100B7F5B6 /* CalculatorModule.m */; };
+		D5B804D71426A18100B7F5B6 /* CalculatorModule.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5B804D51426A18100B7F5B6 /* CalculatorModule.xib */; };
+		D5B804DB1426A1F900B7F5B6 /* CapRateCalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B804D91426A1F900B7F5B6 /* CapRateCalcController.m */; };
+		D5CF457114DBEA2C009B6939 /* Property.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CF457014DBEA2C009B6939 /* Property.m */; };
+		D5CF457414DBEB6F009B6939 /* Report.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CF457314DBEB6F009B6939 /* Report.m */; };
+		D5CF457614DC333C009B6939 /* iphone_delete_button.png in Resources */ = {isa = PBXBuildFile; fileRef = D5CF457514DC333C009B6939 /* iphone_delete_button.png */; };
+		D5D41D1D144269FB00AF995C /* ExpenseTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D41D1C144269FB00AF995C /* ExpenseTabViewController.m */; };
+		D5D41D2314426A1200AF995C /* ReportTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D41D2214426A1200AF995C /* ReportTabViewController.m */; };
+		D5D41D2614426A3000AF995C /* PropertyTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D41D2514426A3000AF995C /* PropertyTabViewController.m */; };
+		D5D41D2814426B1100AF995C /* MortgageTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D41D2714426B1100AF995C /* MortgageTabViewController.m */; };
+		D5D41D331442757900AF995C /* RevenueTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D41D321442757900AF995C /* RevenueTabViewController.m */; };
+		D5D41D6214438E0600AF995C /* TabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5D41D6114438E0400AF995C /* TabViewController.xib */; };
+		D5EEF35713FB1D1800A6A5DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EEF35613FB1D1800A6A5DC /* UIKit.framework */; };
+		D5EEF35913FB1D1800A6A5DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EEF35813FB1D1800A6A5DC /* Foundation.framework */; };
+		D5EEF35B13FB1D1800A6A5DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EEF35A13FB1D1800A6A5DC /* CoreGraphics.framework */; };
+		D5EEF36113FB1D1800A6A5DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5EEF35F13FB1D1800A6A5DC /* InfoPlist.strings */; };
+		D5EEF36413FB1D1800A6A5DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EEF36313FB1D1800A6A5DC /* main.m */; };
+		D5EEF36713FB1D1800A6A5DC /* CommercialRECalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EEF36613FB1D1800A6A5DC /* CommercialRECalculatorAppDelegate.m */; };
+		D5EEF37D13FB1D3900A6A5DC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EEF37C13FB1D3900A6A5DC /* CoreData.framework */; };
+		D5F6C12C1427BC0F008FD051 /* CapRateCalcOutputController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F6C12A1427BC0F008FD051 /* CapRateCalcOutputController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D500115A14C1C7880028E500 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		D500115B14C1C7890028E500 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		D500115D14C230980028E500 /* ParameterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParameterViewController.h; sourceTree = "<group>"; };
+		D500115E14C2309A0028E500 /* ParameterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParameterViewController.m; sourceTree = "<group>"; };
+		D525EE8F14C5EC8C00F079FE /* CommercialRECalculator 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CommercialRECalculator 2.xcdatamodel"; sourceTree = "<group>"; };
+		D525EE9014C5EC8C00F079FE /* CommercialRECalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CommercialRECalculator.xcdatamodel; sourceTree = "<group>"; };
+		D525EE9214C6ACED00F079FE /* PropertyAgentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyAgentViewController.h; sourceTree = "<group>"; };
+		D525EE9314C6ACEE00F079FE /* PropertyAgentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyAgentViewController.m; sourceTree = "<group>"; };
+		D525EE9514C6AE3800F079FE /* PropertyContractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyContractor.h; sourceTree = "<group>"; };
+		D525EE9614C6AE3C00F079FE /* PropertyContractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyContractor.m; sourceTree = "<group>"; };
+		D525EE9814C6AE8B00F079FE /* PropertyBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyBuilder.h; sourceTree = "<group>"; };
+		D525EE9914C6AE8E00F079FE /* PropertyBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyBuilder.m; sourceTree = "<group>"; };
+		D53CB61614632725006F68C8 /* Mortgage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mortgage.h; sourceTree = "<group>"; };
+		D53CB61714632725006F68C8 /* Mortgage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mortgage.m; sourceTree = "<group>"; };
+		D53CB61C14632725006F68C8 /* Expense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expense.h; sourceTree = "<group>"; };
+		D53CB61D14632725006F68C8 /* Expense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Expense.m; sourceTree = "<group>"; };
+		D53CB62514632A83006F68C8 /* Revenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Revenue.h; sourceTree = "<group>"; };
+		D53CB62614632A84006F68C8 /* Revenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Revenue.m; sourceTree = "<group>"; };
+		D54A088314DB945400FF6186 /* MtgCalcOutputController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MtgCalcOutputController.h; sourceTree = "<group>"; };
+		D54A088414DB945500FF6186 /* MtgCalcOutputController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MtgCalcOutputController.m; sourceTree = "<group>"; };
+		D54DA9B71488E86E00A73C8A /* arrowdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowdown.png; sourceTree = "<group>"; };
+		D54DA9B81488E86E00A73C8A /* arrowup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowup.png; sourceTree = "<group>"; };
+		D54DA9BD1488EA2700A73C8A /* applybutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applybutton.png; sourceTree = "<group>"; };
+		D54DA9BE1488EA2700A73C8A /* calculate button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calculate button.png"; sourceTree = "<group>"; };
+		D5558CDD14325AC700957B37 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D5558CDE14325AC700957B37 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D5558CDF14325AC800957B37 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		D5558CEB14325D1800957B37 /* tall-buildings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tall-buildings.png"; sourceTree = "<group>"; };
+		D5558CED14325DEF00957B37 /* 06_calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06_calculator.png; sourceTree = "<group>"; };
+		D555F26614CFA86E00E41B0C /* arrow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow2.png; sourceTree = "<group>"; };
+		D555F26914CFA8B700E41B0C /* arrowdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowdown.png; sourceTree = "<group>"; };
+		D555F26B14CFA8BC00E41B0C /* arrowup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowup.png; sourceTree = "<group>"; };
+		D5591B89143148210091BA2D /* MortgageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MortgageData.h; sourceTree = "<group>"; };
+		D5591B8A143148210091BA2D /* MortgageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MortgageData.m; sourceTree = "<group>"; };
+		D568F78814E1401600668749 /* BUTTON_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BUTTON_04.png; sourceTree = "<group>"; };
+		D56A49871488905E005F1D51 /* BUTTON_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BUTTON_02.png; sourceTree = "<group>"; };
+		D56A49881488905E005F1D51 /* BUTTON_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BUTTON_03.png; sourceTree = "<group>"; };
+		D56A498A1488905E005F1D51 /* mainbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainbg.png; sourceTree = "<group>"; };
+		D56A498C1488905E005F1D51 /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backbutton.png; sourceTree = "<group>"; };
+		D56A498D1488905E005F1D51 /* editbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editbutton.png; sourceTree = "<group>"; };
+		D56A498E1488905E005F1D51 /* propBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = propBar.png; sourceTree = "<group>"; };
+		D56A498F1488905E005F1D51 /* calcBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calcBar.png; sourceTree = "<group>"; };
+		D56A49901488905E005F1D51 /* setBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setBar.png; sourceTree = "<group>"; };
+		D56A49C41488C8EA005F1D51 /* PLAINBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PLAINBG.png; sourceTree = "<group>"; };
+		D56D428014DE3B7A00862984 /* arrow21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow21.png; sourceTree = "<group>"; };
+		D56D428414DE3E2500862984 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		D57D0B281524D6F50056DD9C /* in_app_icon_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = in_app_icon_57x57.png; path = ../in_app_icon_57x57.png; sourceTree = "<group>"; };
+		D57D0B2A1524D6FC0056DD9C /* in_app_icon_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = in_app_icon_114x114.png; path = ../in_app_icon_114x114.png; sourceTree = "<group>"; };
+		D57D0B2E1524D8D10056DD9C /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		D5866991143D57F700B04E97 /* ListPropertyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListPropertyViewController.h; sourceTree = "<group>"; };
+		D5866992143D57F800B04E97 /* ListPropertyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListPropertyViewController.m; sourceTree = "<group>"; };
+		D5866993143D57F800B04E97 /* ListPropertyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListPropertyViewController.xib; sourceTree = "<group>"; };
+		D59A384F14D96BAE00398AEC /* CalcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcViewController.h; sourceTree = "<group>"; };
+		D59A385014D96BAF00398AEC /* CalcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcViewController.m; sourceTree = "<group>"; };
+		D5A30ACB1431319300F07D07 /* MtgCalcController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MtgCalcController.h; sourceTree = "<group>"; };
+		D5A30ACC1431319400F07D07 /* MtgCalcController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MtgCalcController.m; sourceTree = "<group>"; };
+		D5A7A0DE14BB14790077D40E /* expTB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = expTB.png; path = "CommercialRECalculator/Images/Tab Bar/expTB.png"; sourceTree = SOURCE_ROOT; };
+		D5A7A0DF14BB14790077D40E /* mtgTB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mtgTB.png; path = "CommercialRECalculator/Images/Tab Bar/mtgTB.png"; sourceTree = SOURCE_ROOT; };
+		D5A7A0E014BB14790077D40E /* propTB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = propTB.png; path = "CommercialRECalculator/Images/Tab Bar/propTB.png"; sourceTree = SOURCE_ROOT; };
+		D5A7A0E114BB14790077D40E /* repTB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = repTB.png; path = "CommercialRECalculator/Images/Tab Bar/repTB.png"; sourceTree = SOURCE_ROOT; };
+		D5A7A0E214BB14790077D40E /* revTB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = revTB.png; path = "CommercialRECalculator/Images/Tab Bar/revTB.png"; sourceTree = SOURCE_ROOT; };
+		D5B05037145CA849000163F8 /* RevenueData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevenueData.h; sourceTree = "<group>"; };
+		D5B05038145CA84E000163F8 /* RevenueData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevenueData.m; sourceTree = "<group>"; };
+		D5B0503A145CA875000163F8 /* ExpenseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenseData.h; sourceTree = "<group>"; };
+		D5B0503B145CA878000163F8 /* ExpenseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenseData.m; sourceTree = "<group>"; };
+		D5B0503D145CA8A1000163F8 /* ReportData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportData.h; sourceTree = "<group>"; };
+		D5B0503E145CA8A4000163F8 /* ReportData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportData.m; sourceTree = "<group>"; };
+		D5B1B6041466216A00761F91 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		D5B1B60F1466242E00761F91 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		D5B1B61B1466311900761F91 /* SettingsParameterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsParameterViewController.h; sourceTree = "<group>"; };
+		D5B1B61C1466311900761F91 /* SettingsParameterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsParameterViewController.m; sourceTree = "<group>"; };
+		D5B1B63F14664C8800761F91 /* SettingsParameterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsParameterViewController.xib; sourceTree = "<group>"; };
+		D5B1B647146718FD00761F91 /* banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banana.png; sourceTree = "<group>"; };
+		D5B1B648146718FD00761F91 /* Banana-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banana-1.png"; sourceTree = "<group>"; };
+		D5B804821423F72900B7F5B6 /* AppDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegateProtocol.h; path = CommercialRECalculator/AppDelegateProtocol.h; sourceTree = "<group>"; };
+		D5B8048C1423F7F000B7F5B6 /* AppDataContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDataContainer.h; path = CommercialRECalculator/AppDataContainer.h; sourceTree = "<group>"; };
+		D5B8048D1423F7F000B7F5B6 /* AppDataContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDataContainer.m; path = CommercialRECalculator/AppDataContainer.m; sourceTree = "<group>"; };
+		D5B8048F1423F85900B7F5B6 /* AppDataObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDataObjects.h; path = CommercialRECalculator/AppDataObjects.h; sourceTree = "<group>"; };
+		D5B80492142692D200B7F5B6 /* PropertyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PropertyData.h; path = CommercialRECalculator.xcodeproj/PropertyData.h; sourceTree = "<group>"; };
+		D5B80493142692D300B7F5B6 /* PropertyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PropertyData.m; path = CommercialRECalculator.xcodeproj/PropertyData.m; sourceTree = "<group>"; };
+		D5B8049F142698E900B7F5B6 /* AppDataObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDataObjects.m; path = CommercialRECalculator.xcodeproj/AppDataObjects.m; sourceTree = SOURCE_ROOT; };
+		D5B804D31426A18100B7F5B6 /* CalculatorModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorModule.h; sourceTree = "<group>"; };
+		D5B804D41426A18100B7F5B6 /* CalculatorModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorModule.m; sourceTree = "<group>"; };
+		D5B804D51426A18100B7F5B6 /* CalculatorModule.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalculatorModule.xib; sourceTree = "<group>"; };
+		D5B804D81426A1F800B7F5B6 /* CapRateCalcController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapRateCalcController.h; sourceTree = "<group>"; };
+		D5B804D91426A1F900B7F5B6 /* CapRateCalcController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapRateCalcController.m; sourceTree = "<group>"; };
+		D5CF456D14DBE9C7009B6939 /* CommercialRECalculator 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CommercialRECalculator 3.xcdatamodel"; sourceTree = "<group>"; };
+		D5CF456F14DBEA2C009B6939 /* Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Property.h; sourceTree = "<group>"; };
+		D5CF457014DBEA2C009B6939 /* Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Property.m; sourceTree = "<group>"; };
+		D5CF457214DBEB6F009B6939 /* Report.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Report.h; sourceTree = "<group>"; };
+		D5CF457314DBEB6F009B6939 /* Report.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Report.m; sourceTree = "<group>"; };
+		D5CF457514DC333C009B6939 /* iphone_delete_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone_delete_button.png; path = ../iphone_delete_button.png; sourceTree = "<group>"; };
+		D5CFBF7D1522EECB00136A4A /* Park Avenue.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Park Avenue.entitlements"; sourceTree = "<group>"; };
+		D5D41D1B144269FB00AF995C /* ExpenseTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenseTabViewController.h; sourceTree = "<group>"; };
+		D5D41D1C144269FB00AF995C /* ExpenseTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenseTabViewController.m; sourceTree = "<group>"; };
+		D5D41D1E14426A0400AF995C /* MortgageTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MortgageTabViewController.h; sourceTree = "<group>"; };
+		D5D41D2114426A1200AF995C /* ReportTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportTabViewController.h; sourceTree = "<group>"; };
+		D5D41D2214426A1200AF995C /* ReportTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportTabViewController.m; sourceTree = "<group>"; };
+		D5D41D2414426A3000AF995C /* PropertyTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyTabViewController.h; sourceTree = "<group>"; };
+		D5D41D2514426A3000AF995C /* PropertyTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyTabViewController.m; sourceTree = "<group>"; };
+		D5D41D2714426B1100AF995C /* MortgageTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MortgageTabViewController.m; sourceTree = "<group>"; };
+		D5D41D311442757900AF995C /* RevenueTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevenueTabViewController.h; sourceTree = "<group>"; };
+		D5D41D321442757900AF995C /* RevenueTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevenueTabViewController.m; sourceTree = "<group>"; };
+		D5D41D6114438E0400AF995C /* TabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabViewController.xib; sourceTree = "<group>"; };
+		D5EEF35213FB1D1800A6A5DC /* Park Avenue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Park Avenue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EEF35613FB1D1800A6A5DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D5EEF35813FB1D1800A6A5DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D5EEF35A13FB1D1800A6A5DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D5EEF35E13FB1D1800A6A5DC /* CommercialRECalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CommercialRECalculator-Info.plist"; sourceTree = "<group>"; };
+		D5EEF36013FB1D1800A6A5DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5EEF36213FB1D1800A6A5DC /* CommercialRECalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommercialRECalculator-Prefix.pch"; sourceTree = "<group>"; };
+		D5EEF36313FB1D1800A6A5DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5EEF36513FB1D1800A6A5DC /* CommercialRECalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CommercialRECalculatorAppDelegate.h; path = CommercialRECalculator/CommercialRECalculatorAppDelegate.h; sourceTree = "<group>"; };
+		D5EEF36613FB1D1800A6A5DC /* CommercialRECalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CommercialRECalculatorAppDelegate.m; path = CommercialRECalculator/CommercialRECalculatorAppDelegate.m; sourceTree = "<group>"; };
+		D5EEF37C13FB1D3900A6A5DC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D5F6C1291427BC0E008FD051 /* CapRateCalcOutputController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapRateCalcOutputController.h; sourceTree = "<group>"; };
+		D5F6C12A1427BC0F008FD051 /* CapRateCalcOutputController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapRateCalcOutputController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5EEF34F13FB1D1800A6A5DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EEF37D13FB1D3900A6A5DC /* CoreData.framework in Frameworks */,
+				D5EEF35713FB1D1800A6A5DC /* UIKit.framework in Frameworks */,
+				D5EEF35913FB1D1800A6A5DC /* Foundation.framework in Frameworks */,
+				D5EEF35B13FB1D1800A6A5DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D54DA9B51488E86E00A73C8A /* Arrows */ = {
+			isa = PBXGroup;
+			children = (
+				D56D428414DE3E2500862984 /* arrow.png */,
+				D56D428014DE3B7A00862984 /* arrow21.png */,
+				D54DA9B71488E86E00A73C8A /* arrowdown.png */,
+				D54DA9B81488E86E00A73C8A /* arrowup.png */,
+			);
+			path = Arrows;
+			sourceTree = "<group>";
+		};
+		D553765614881DB90037F1FC /* TabViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D500115A14C1C7880028E500 /* TabBarViewController.h */,
+				D500115B14C1C7890028E500 /* TabBarViewController.m */,
+				D5D41D2414426A3000AF995C /* PropertyTabViewController.h */,
+				D5D41D2514426A3000AF995C /* PropertyTabViewController.m */,
+				D5D41D311442757900AF995C /* RevenueTabViewController.h */,
+				D5D41D321442757900AF995C /* RevenueTabViewController.m */,
+				D5D41D1B144269FB00AF995C /* ExpenseTabViewController.h */,
+				D5D41D1C144269FB00AF995C /* ExpenseTabViewController.m */,
+				D5D41D1E14426A0400AF995C /* MortgageTabViewController.h */,
+				D5D41D2714426B1100AF995C /* MortgageTabViewController.m */,
+				D5D41D2114426A1200AF995C /* ReportTabViewController.h */,
+				D5D41D2214426A1200AF995C /* ReportTabViewController.m */,
+			);
+			name = TabViewControllers;
+			sourceTree = "<group>";
+		};
+		D56A49861488905E005F1D51 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D5CF457514DC333C009B6939 /* iphone_delete_button.png */,
+				D54DA9BD1488EA2700A73C8A /* applybutton.png */,
+				D54DA9BE1488EA2700A73C8A /* calculate button.png */,
+				D54DA9B51488E86E00A73C8A /* Arrows */,
+				D56A49C41488C8EA005F1D51 /* PLAINBG.png */,
+				D56A49B91488A5C5005F1D51 /* Tab Bar  */,
+				D56A49871488905E005F1D51 /* BUTTON_02.png */,
+				D568F78814E1401600668749 /* BUTTON_04.png */,
+				D56A49881488905E005F1D51 /* BUTTON_03.png */,
+				D56A498A1488905E005F1D51 /* mainbg.png */,
+				D56A498B1488905E005F1D51 /* Top Bar */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D56A498B1488905E005F1D51 /* Top Bar */ = {
+			isa = PBXGroup;
+			children = (
+				D56A498C1488905E005F1D51 /* backbutton.png */,
+				D56A498D1488905E005F1D51 /* editbutton.png */,
+				D56A498E1488905E005F1D51 /* propBar.png */,
+				D56A498F1488905E005F1D51 /* calcBar.png */,
+				D56A49901488905E005F1D51 /* setBar.png */,
+			);
+			path = "Top Bar";
+			sourceTree = "<group>";
+		};
+		D56A49B91488A5C5005F1D51 /* Tab Bar  */ = {
+			isa = PBXGroup;
+			children = (
+				D5A7A0DE14BB14790077D40E /* expTB.png */,
+				D5A7A0DF14BB14790077D40E /* mtgTB.png */,
+				D5A7A0E014BB14790077D40E /* propTB.png */,
+				D5A7A0E114BB14790077D40E /* repTB.png */,
+				D5A7A0E214BB14790077D40E /* revTB.png */,
+			);
+			path = "Tab Bar ";
+			sourceTree = "<group>";
+		};
+		D5B1B5F614661F9200761F91 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D5EEF36513FB1D1800A6A5DC /* CommercialRECalculatorAppDelegate.h */,
+				D5EEF36613FB1D1800A6A5DC /* CommercialRECalculatorAppDelegate.m */,
+				D5B804821423F72900B7F5B6 /* AppDelegateProtocol.h */,
+				D5B8048C1423F7F000B7F5B6 /* AppDataContainer.h */,
+				D5B8048D1423F7F000B7F5B6 /* AppDataContainer.m */,
+				D5B8048F1423F85900B7F5B6 /* AppDataObjects.h */,
+				D5B8049F142698E900B7F5B6 /* AppDataObjects.m */,
+				D5B80492142692D200B7F5B6 /* PropertyData.h */,
+				D5B80493142692D300B7F5B6 /* PropertyData.m */,
+				D5B05037145CA849000163F8 /* RevenueData.h */,
+				D5B05038145CA84E000163F8 /* RevenueData.m */,
+				D5B0503A145CA875000163F8 /* ExpenseData.h */,
+				D5B0503B145CA878000163F8 /* ExpenseData.m */,
+				D5591B89143148210091BA2D /* MortgageData.h */,
+				D5591B8A143148210091BA2D /* MortgageData.m */,
+				D5B0503D145CA8A1000163F8 /* ReportData.h */,
+				D5B0503E145CA8A4000163F8 /* ReportData.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D5B1B5F814661FC300761F91 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5558CDD14325AC700957B37 /* RootViewController.h */,
+				D5558CDE14325AC700957B37 /* RootViewController.m */,
+				D5B804D21426A12000B7F5B6 /* CalculatorViewControllers */,
+				D5B804D01426A10300B7F5B6 /* PropertyViewControllers */,
+				D5B1B607146621CD00761F91 /* SettingsViewControllers */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D5B1B5F914661FD800761F91 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5B804D51426A18100B7F5B6 /* CalculatorModule.xib */,
+				D5B1B6041466216A00761F91 /* SettingsViewController.xib */,
+				D5866993143D57F800B04E97 /* ListPropertyViewController.xib */,
+				D5D41D6114438E0400AF995C /* TabViewController.xib */,
+				D5558CDF14325AC800957B37 /* MainWindow.xib */,
+				D5B1B63F14664C8800761F91 /* SettingsParameterViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D5B1B607146621CD00761F91 /* SettingsViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5B1B61E1466311D00761F91 /* Parameter */,
+			);
+			name = SettingsViewControllers;
+			sourceTree = "<group>";
+		};
+		D5B1B6111466244600761F91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D56A49861488905E005F1D51 /* Images */,
+				D5B1B648146718FD00761F91 /* Banana-1.png */,
+				D555F26914CFA8B700E41B0C /* arrowdown.png */,
+				D555F26B14CFA8BC00E41B0C /* arrowup.png */,
+				D5B1B647146718FD00761F91 /* banana.png */,
+				D5558CED14325DEF00957B37 /* 06_calculator.png */,
+				D555F26614CFA86E00E41B0C /* arrow2.png */,
+				D5B1B60F1466242E00761F91 /* settings.png */,
+				D5558CEB14325D1800957B37 /* tall-buildings.png */,
+				D57D0B2A1524D6FC0056DD9C /* in_app_icon_114x114.png */,
+				D57D0B281524D6F50056DD9C /* in_app_icon_57x57.png */,
+			);
+			name = Resources;
+			path = CommercialRECalculator;
+			sourceTree = "<group>";
+		};
+		D5B1B61E1466311D00761F91 /* Parameter */ = {
+			isa = PBXGroup;
+			children = (
+				D5B1B61B1466311900761F91 /* SettingsParameterViewController.h */,
+				D5B1B61C1466311900761F91 /* SettingsParameterViewController.m */,
+				D500115D14C230980028E500 /* ParameterViewController.h */,
+				D500115E14C2309A0028E500 /* ParameterViewController.m */,
+			);
+			name = Parameter;
+			sourceTree = "<group>";
+		};
+		D5B804D01426A10300B7F5B6 /* PropertyViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D525EE9214C6ACED00F079FE /* PropertyAgentViewController.h */,
+				D525EE9314C6ACEE00F079FE /* PropertyAgentViewController.m */,
+				D525EE9514C6AE3800F079FE /* PropertyContractor.h */,
+				D525EE9614C6AE3C00F079FE /* PropertyContractor.m */,
+				D525EE9814C6AE8B00F079FE /* PropertyBuilder.h */,
+				D525EE9914C6AE8E00F079FE /* PropertyBuilder.m */,
+				D5866991143D57F700B04E97 /* ListPropertyViewController.h */,
+				D5866992143D57F800B04E97 /* ListPropertyViewController.m */,
+				D553765614881DB90037F1FC /* TabViewControllers */,
+			);
+			name = PropertyViewControllers;
+			sourceTree = "<group>";
+		};
+		D5B804D21426A12000B7F5B6 /* CalculatorViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D59A384F14D96BAE00398AEC /* CalcViewController.h */,
+				D59A385014D96BAF00398AEC /* CalcViewController.m */,
+				D5B804D31426A18100B7F5B6 /* CalculatorModule.h */,
+				D5B804D41426A18100B7F5B6 /* CalculatorModule.m */,
+				D5B804D81426A1F800B7F5B6 /* CapRateCalcController.h */,
+				D5B804D91426A1F900B7F5B6 /* CapRateCalcController.m */,
+				D5F6C1291427BC0E008FD051 /* CapRateCalcOutputController.h */,
+				D5F6C12A1427BC0F008FD051 /* CapRateCalcOutputController.m */,
+				D5A30ACB1431319300F07D07 /* MtgCalcController.h */,
+				D5A30ACC1431319400F07D07 /* MtgCalcController.m */,
+				D54A088314DB945400FF6186 /* MtgCalcOutputController.h */,
+				D54A088414DB945500FF6186 /* MtgCalcOutputController.m */,
+			);
+			name = CalculatorViewControllers;
+			sourceTree = "<group>";
+		};
+		D5EE980313FB36A600AB42CF /* Managed Objects */ = {
+			isa = PBXGroup;
+			children = (
+				D5CF457214DBEB6F009B6939 /* Report.h */,
+				D5CF457314DBEB6F009B6939 /* Report.m */,
+				D5CF456F14DBEA2C009B6939 /* Property.h */,
+				D5CF457014DBEA2C009B6939 /* Property.m */,
+				D53CB61C14632725006F68C8 /* Expense.h */,
+				D53CB61D14632725006F68C8 /* Expense.m */,
+				D53CB62514632A83006F68C8 /* Revenue.h */,
+				D53CB62614632A84006F68C8 /* Revenue.m */,
+				D53CB61614632725006F68C8 /* Mortgage.h */,
+				D53CB61714632725006F68C8 /* Mortgage.m */,
+			);
+			name = "Managed Objects";
+			sourceTree = "<group>";
+		};
+		D5EEF34713FB1D1800A6A5DC = {
+			isa = PBXGroup;
+			children = (
+				D57D0B2E1524D8D10056DD9C /* Entitlements.plist */,
+				D5B1B5F614661F9200761F91 /* AppDelegate */,
+				D5EEF35C13FB1D1800A6A5DC /* CommercialRECalculator */,
+				D5B1B6111466244600761F91 /* Resources */,
+				D5EEF35513FB1D1800A6A5DC /* Frameworks */,
+				D5EEF35313FB1D1800A6A5DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5EEF35313FB1D1800A6A5DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5EEF35213FB1D1800A6A5DC /* Park Avenue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5EEF35513FB1D1800A6A5DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5EEF37C13FB1D3900A6A5DC /* CoreData.framework */,
+				D5EEF35613FB1D1800A6A5DC /* UIKit.framework */,
+				D5EEF35813FB1D1800A6A5DC /* Foundation.framework */,
+				D5EEF35A13FB1D1800A6A5DC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5EEF35C13FB1D1800A6A5DC /* CommercialRECalculator */ = {
+			isa = PBXGroup;
+			children = (
+				D5CFBF7D1522EECB00136A4A /* Park Avenue.entitlements */,
+				D5B1B5F814661FC300761F91 /* Controllers */,
+				D5B1B5F914661FD800761F91 /* Views */,
+				D5EEF35D13FB1D1800A6A5DC /* Models */,
+			);
+			path = CommercialRECalculator;
+			sourceTree = "<group>";
+		};
+		D5EEF35D13FB1D1800A6A5DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D525EE8E14C5EC8C00F079FE /* CommercialRECalculator.xcdatamodeld */,
+				D5EE980313FB36A600AB42CF /* Managed Objects */,
+				D5EEF35E13FB1D1800A6A5DC /* CommercialRECalculator-Info.plist */,
+				D5EEF35F13FB1D1800A6A5DC /* InfoPlist.strings */,
+				D5EEF36213FB1D1800A6A5DC /* CommercialRECalculator-Prefix.pch */,
+				D5EEF36313FB1D1800A6A5DC /* main.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5EEF35113FB1D1800A6A5DC /* CommercialRECalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5EEF37913FB1D1800A6A5DC /* Build configuration list for PBXNativeTarget "CommercialRECalculator" */;
+			buildPhases = (
+				D5EEF34E13FB1D1800A6A5DC /* Sources */,
+				D5EEF34F13FB1D1800A6A5DC /* Frameworks */,
+				D5EEF35013FB1D1800A6A5DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommercialRECalculator;
+			productName = CommercialRECalculator;
+			productReference = D5EEF35213FB1D1800A6A5DC /* Park Avenue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5EEF34913FB1D1800A6A5DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Advis Apps";
+			};
+			buildConfigurationList = D5EEF34C13FB1D1800A6A5DC /* Build configuration list for PBXProject "CommercialRECalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D5EEF34713FB1D1800A6A5DC;
+			productRefGroup = D5EEF35313FB1D1800A6A5DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5EEF35113FB1D1800A6A5DC /* CommercialRECalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5EEF35013FB1D1800A6A5DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EEF36113FB1D1800A6A5DC /* InfoPlist.strings in Resources */,
+				D5B804D71426A18100B7F5B6 /* CalculatorModule.xib in Resources */,
+				D5558CE114325AC800957B37 /* MainWindow.xib in Resources */,
+				D5558CEC14325D1900957B37 /* tall-buildings.png in Resources */,
+				D5558CEE14325DEF00957B37 /* 06_calculator.png in Resources */,
+				D5866995143D57F800B04E97 /* ListPropertyViewController.xib in Resources */,
+				D5D41D6214438E0600AF995C /* TabViewController.xib in Resources */,
+				D5B1B6061466216A00761F91 /* SettingsViewController.xib in Resources */,
+				D5B1B6101466242F00761F91 /* settings.png in Resources */,
+				D5B1B64014664C8900761F91 /* SettingsParameterViewController.xib in Resources */,
+				D5B1B649146718FD00761F91 /* banana.png in Resources */,
+				D5B1B64A146718FD00761F91 /* Banana-1.png in Resources */,
+				D56A49911488905E005F1D51 /* BUTTON_02.png in Resources */,
+				D56A49921488905E005F1D51 /* BUTTON_03.png in Resources */,
+				D56A49941488905E005F1D51 /* mainbg.png in Resources */,
+				D56A49951488905E005F1D51 /* backbutton.png in Resources */,
+				D56A49961488905E005F1D51 /* editbutton.png in Resources */,
+				D56A49971488905E005F1D51 /* propBar.png in Resources */,
+				D56A49981488905E005F1D51 /* calcBar.png in Resources */,
+				D56A49991488905E005F1D51 /* setBar.png in Resources */,
+				D56A49C51488C8EB005F1D51 /* PLAINBG.png in Resources */,
+				D54DA9BA1488E86E00A73C8A /* arrowdown.png in Resources */,
+				D54DA9BB1488E86E00A73C8A /* arrowup.png in Resources */,
+				D54DA9BF1488EA2700A73C8A /* applybutton.png in Resources */,
+				D54DA9C01488EA2700A73C8A /* calculate button.png in Resources */,
+				D5A7A0E314BB14790077D40E /* expTB.png in Resources */,
+				D5A7A0E414BB14790077D40E /* mtgTB.png in Resources */,
+				D5A7A0E514BB14790077D40E /* propTB.png in Resources */,
+				D5A7A0E614BB14790077D40E /* repTB.png in Resources */,
+				D5A7A0E714BB14790077D40E /* revTB.png in Resources */,
+				D555F26714CFA86E00E41B0C /* arrow2.png in Resources */,
+				D5CF457614DC333C009B6939 /* iphone_delete_button.png in Resources */,
+				D56D428114DE3B7A00862984 /* arrow21.png in Resources */,
+				D56D428514DE3E2500862984 /* arrow.png in Resources */,
+				D568F78914E1401600668749 /* BUTTON_04.png in Resources */,
+				D57D0B291524D6F50056DD9C /* in_app_icon_57x57.png in Resources */,
+				D57D0B2B1524D6FC0056DD9C /* in_app_icon_114x114.png in Resources */,
+				D57D0B2F1524D8D10056DD9C /* Entitlements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5EEF34E13FB1D1800A6A5DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59A385214D96E6400398AEC /* CalcViewController.m in Sources */,
+				D5EEF36413FB1D1800A6A5DC /* main.m in Sources */,
+				D5EEF36713FB1D1800A6A5DC /* CommercialRECalculatorAppDelegate.m in Sources */,
+				D5B8048E1423F7F000B7F5B6 /* AppDataContainer.m in Sources */,
+				D5B80494142692D300B7F5B6 /* PropertyData.m in Sources */,
+				D5B804A0142698E900B7F5B6 /* AppDataObjects.m in Sources */,
+				D5B804D61426A18100B7F5B6 /* CalculatorModule.m in Sources */,
+				D5B804DB1426A1F900B7F5B6 /* CapRateCalcController.m in Sources */,
+				D5F6C12C1427BC0F008FD051 /* CapRateCalcOutputController.m in Sources */,
+				D5A30ACE1431319400F07D07 /* MtgCalcController.m in Sources */,
+				D5591B8B143148210091BA2D /* MortgageData.m in Sources */,
+				D5558CE014325AC800957B37 /* RootViewController.m in Sources */,
+				D5866994143D57F800B04E97 /* ListPropertyViewController.m in Sources */,
+				D5D41D1D144269FB00AF995C /* ExpenseTabViewController.m in Sources */,
+				D5D41D2314426A1200AF995C /* ReportTabViewController.m in Sources */,
+				D5D41D2614426A3000AF995C /* PropertyTabViewController.m in Sources */,
+				D5D41D2814426B1100AF995C /* MortgageTabViewController.m in Sources */,
+				D5D41D331442757900AF995C /* RevenueTabViewController.m in Sources */,
+				D5B05039145CA853000163F8 /* RevenueData.m in Sources */,
+				D5B0503C145CA87B000163F8 /* ExpenseData.m in Sources */,
+				D5B0503F145CA8A7000163F8 /* ReportData.m in Sources */,
+				D53CB61814632725006F68C8 /* Mortgage.m in Sources */,
+				D53CB61E14632725006F68C8 /* Expense.m in Sources */,
+				D53CB62714632A85006F68C8 /* Revenue.m in Sources */,
+				D5B1B61D1466311900761F91 /* SettingsParameterViewController.m in Sources */,
+				D500115C14C1C78B0028E500 /* TabBarViewController.m in Sources */,
+				D500115F14C2309E0028E500 /* ParameterViewController.m in Sources */,
+				D525EE9114C5EC8C00F079FE /* CommercialRECalculator.xcdatamodeld in Sources */,
+				D525EE9414C6ACF100F079FE /* PropertyAgentViewController.m in Sources */,
+				D525EE9714C6AE3F00F079FE /* PropertyContractor.m in Sources */,
+				D525EE9A14C6AE9000F079FE /* PropertyBuilder.m in Sources */,
+				D54A088514DB945500FF6186 /* MtgCalcOutputController.m in Sources */,
+				D5CF457114DBEA2C009B6939 /* Property.m in Sources */,
+				D5CF457414DBEB6F009B6939 /* Report.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5EEF35F13FB1D1800A6A5DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5EEF36013FB1D1800A6A5DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5CDD90E154126730064E378 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Freddy Hidalgo-Monchez (DCTCZD74H8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Advis Apps";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "";
+				PROVISIONING_PROFILE = "07ABF40F-C64A-4830-B827-4E6D6E3EA4E3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "051ECC9D-E024-4472-AB55-3E0AB85C07A3";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Distribution;
+		};
+		D5CDD90F154126730064E378 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Freddy Hidalgo-Monchez (DCTCZD74H8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Advis Apps";
+				COPY_PHASE_STRIP = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CommercialRECalculator/CommercialRECalculator-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "CommercialRECalculator/CommercialRECalculator-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK0.8.2\"",
+				);
+				PRODUCT_NAME = "Park Avenue";
+				PROVISIONING_PROFILE = "07ABF40F-C64A-4830-B827-4E6D6E3EA4E3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "051ECC9D-E024-4472-AB55-3E0AB85C07A3";
+				SKIP_INSTALL = NO;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		D5CFBF771522E8C700136A4A /* Ad Hoc Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Advis Apps";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Advis Apps";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "";
+				PROVISIONING_PROFILE = "F7867834-57AD-4829-A141-0CB04071C1AA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F7867834-57AD-4829-A141-0CB04071C1AA";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = "Ad Hoc Distribution";
+		};
+		D5CFBF781522E8C700136A4A /* Ad Hoc Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Advis Apps";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Advis Apps";
+				COPY_PHASE_STRIP = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CommercialRECalculator/CommercialRECalculator-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "CommercialRECalculator/CommercialRECalculator-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK0.8.2\"",
+				);
+				PRODUCT_NAME = "Park Avenue";
+				PROVISIONING_PROFILE = "F7867834-57AD-4829-A141-0CB04071C1AA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F7867834-57AD-4829-A141-0CB04071C1AA";
+				SKIP_INSTALL = NO;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc Distribution";
+		};
+		D5EEF37713FB1D1800A6A5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Freddy Hidalgo-Monchez (DCTCZD74H8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Freddy Hidalgo-Monchez (DCTCZD74H8)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "";
+				PROVISIONING_PROFILE = "07ABF40F-C64A-4830-B827-4E6D6E3EA4E3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "07ABF40F-C64A-4830-B827-4E6D6E3EA4E3";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		D5EEF37813FB1D1800A6A5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Freddy Hidalgo-Monchez (DCTCZD74H8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Freddy Hidalgo-Monchez (DCTCZD74H8)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "";
+				PROVISIONING_PROFILE = "07ABF40F-C64A-4830-B827-4E6D6E3EA4E3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "07ABF40F-C64A-4830-B827-4E6D6E3EA4E3";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+		D5EEF37A13FB1D1800A6A5DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Freddy Hidalgo-Monchez (H7424XYA5V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Freddy Hidalgo-Monchez (DCTCZD74H8)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CommercialRECalculator/CommercialRECalculator-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "CommercialRECalculator/CommercialRECalculator-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK0.8.2\"",
+				);
+				PRODUCT_NAME = "Park Avenue";
+				PROVISIONING_PROFILE = "ECB97979-17B8-4DA7-83DD-650420CED809";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "07ABF40F-C64A-4830-B827-4E6D6E3EA4E3";
+				SKIP_INSTALL = NO;
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D5EEF37B13FB1D1800A6A5DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Freddy Hidalgo-Monchez (DCTCZD74H8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Freddy Hidalgo-Monchez (DCTCZD74H8)";
+				COPY_PHASE_STRIP = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CommercialRECalculator/CommercialRECalculator-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "CommercialRECalculator/CommercialRECalculator-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK0.8.2\"",
+				);
+				PRODUCT_NAME = "Park Avenue";
+				PROVISIONING_PROFILE = "07ABF40F-C64A-4830-B827-4E6D6E3EA4E3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "07ABF40F-C64A-4830-B827-4E6D6E3EA4E3";
+				SKIP_INSTALL = NO;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5EEF34C13FB1D1800A6A5DC /* Build configuration list for PBXProject "CommercialRECalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EEF37713FB1D1800A6A5DC /* Debug */,
+				D5EEF37813FB1D1800A6A5DC /* Release */,
+				D5CDD90E154126730064E378 /* Distribution */,
+				D5CFBF771522E8C700136A4A /* Ad Hoc Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		D5EEF37913FB1D1800A6A5DC /* Build configuration list for PBXNativeTarget "CommercialRECalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EEF37A13FB1D1800A6A5DC /* Debug */,
+				D5EEF37B13FB1D1800A6A5DC /* Release */,
+				D5CDD90F154126730064E378 /* Distribution */,
+				D5CFBF781522E8C700136A4A /* Ad Hoc Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D525EE8E14C5EC8C00F079FE /* CommercialRECalculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D5CF456D14DBE9C7009B6939 /* CommercialRECalculator 3.xcdatamodel */,
+				D525EE8F14C5EC8C00F079FE /* CommercialRECalculator 2.xcdatamodel */,
+				D525EE9014C5EC8C00F079FE /* CommercialRECalculator.xcdatamodel */,
+			);
+			currentVersion = D5CF456D14DBE9C7009B6939 /* CommercialRECalculator 3.xcdatamodel */;
+			path = CommercialRECalculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D5EEF34913FB1D1800A6A5DC /* Project object */;
+}
